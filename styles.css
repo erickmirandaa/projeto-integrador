@@ -1,11 +1,11 @@
 body{
     background-image: url('https://raw.githubusercontent.com/erickmirandaa/projeto-integrador/master/images/background.jpg');
-    background-size: cover;
+    background-size: auto;
 }
 
 h1{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #282828;
+    color: #f2f2f2;
     font-weight: bold;
     text-align: center;
     font-size: 60px;
@@ -13,7 +13,7 @@ h1{
 
 h2{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #282828;
+    color: #f2f2f2;
     font-weight: 400;
     font-size: 25px;
     text-align: center;
