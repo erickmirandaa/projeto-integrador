@@ -1,6 +1,6 @@
 body{
     background-image: url('https://raw.githubusercontent.com/erickmirandaa/projeto-integrador/master/images/background.jpg');
-    background-size: auto;
+    background-size: contain;
 }
 
 h1{
