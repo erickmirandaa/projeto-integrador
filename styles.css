@@ -27,3 +27,18 @@ p{
     margin-bottom: 100px;
 }
 
+.botao {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda do botão */
+    border-radius: 5px; /* Adiciona cantos arredondados ao botão */
+    cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+    font-size: 16px; /* Tamanho da fonte do texto */
+}
+
+.botao:hover {
+    background-color: #0056b3; /* Altera a cor de fundo quando o mouse passa por cima */
+}
+
+
