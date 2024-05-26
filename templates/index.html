@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Upload CSV File</title>
+    <title>MarketBoost</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
@@ -26,7 +26,7 @@
                 <p>retorno sobre seus investimentos em marketing, mas também fornecerá insights valiosos para aprimorar suas estratégias de vendas.</p>
             </h2>
         </div>
-        <form action="/upload" method="post" enctype="multipart/form-data">
+        <form action="/upload" method="GET" enctype="multipart/form-data">
             <input type="file" name="file" accept=".csv">
             <button type="submit">Clique em Avançar e faça acontecer!</button>
         </form>
