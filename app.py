@@ -19,9 +19,9 @@ def allowed_file(filename):
 def index():
     return render_template('index.html')
 
-@server.route('/upload', methods=['GET'])
+@server.route('/upload', methods=['POST', 'GET'])
 def upload_file():
-    if request.method == 'GET':
+    if request.method == 'POST':
         if 'file' not in request.files:
             return redirect(request.url)
         file = request.files['file']
